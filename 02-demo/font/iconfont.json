@@ -1,0 +1,65 @@
+{
+  "id": "1552157",
+  "name": "iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1262340",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "1274344",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "7736183",
+      "name": "lock",
+      "font_class": "lock",
+      "unicode": "e8fc",
+      "unicode_decimal": 59644
+    },
+    {
+      "icon_id": "13743936",
+      "name": "instagram",
+      "font_class": "instagram",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "12818645",
+      "name": "arrow-left",
+      "font_class": "arrow-left",
+      "unicode": "e7e3",
+      "unicode_decimal": 59363
+    },
+    {
+      "icon_id": "12818649",
+      "name": "arrow-right",
+      "font_class": "arrow-right",
+      "unicode": "e7e4",
+      "unicode_decimal": 59364
+    },
+    {
+      "icon_id": "12007274",
+      "name": "b-171",
+      "font_class": "b-",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    },
+    {
+      "icon_id": "12007280",
+      "name": "b-169",
+      "font_class": "b-1",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    }
+  ]
+}

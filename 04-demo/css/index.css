@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.before-after {
+  content: "";
+  display: inline-block;
+}
+input {
+  border: none;
+  outline: none;
+}
+a {
+  color: #888;
+  font-size: 13px;
+}
+#app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .container {
+  width: 900px;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(88, 54, 54, 0.4);
+}
+#app .container .form {
+  width: 640px;
+  height: inherit;
+  position: absolute;
+  background: #fff;
+  transition: transform 0.6s ease-in-out;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+}
+#app .container .form h3 {
+  height: 100px;
+  line-height: 100px;
+}
+#app .container .form form {
+  flex: 1;
+  width: 400px;
+}
+#app .container .form form ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#app .container .form form ul li {
+  width: inherit;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+}
+#app .container .form form ul li input {
+  width: 320px;
+  border-bottom: 1px solid #888;
+}
+#app .container .form form ul li label {
+  width: 60px;
+  display: inline-block;
+}
+#app .container .form form ul li input[type=submit] {
+  width: 300px;
+  height: 40px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  border: none;
+  background: #d4af7a;
+}
+#app .container .form form ul li .btn-facebook {
+  border: none;
+  width: 300px;
+  height: 40px;
+  background: #fff;
+  border: 2px solid #aaa;
+  border-radius: 30px;
+}
+#app .container .signup {
+  transform: translateX(260px);
+}
+#app .container .control {
+  width: 900px;
+  height: inherit;
+  position: absolute;
+  left: 640px;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+#app .container .control .img {
+  width: 260px;
+  height: inherit;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#app .container .control .img:before {
+  content: "";
+  width: 900px;
+  height: inherit;
+  position: absolute;
+  right: 0;
+  z-index: -5;
+  background: url(../imgs/background.jpeg) no-repeat center;
+  background-size: cover;
+}
+#app .container .control .img:after {
+  content: "";
+  width: 260px;
+  height: inherit;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -4;
+}
+#app .container .control .img div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#app .container .control .img div h3 {
+  z-index: 1;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+}
+#app .container .control .img div p {
+  color: #fff;
+}
+#app .container .control .img .btn {
+  width: 100px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  color: #fff;
+}
+#app .container .control .img .btn:before {
+  content: "";
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+#app .container .login {
+  transform: translateX(-640px);
+}
+#app .container .login .img:before {
+  left: 0px;
+}
